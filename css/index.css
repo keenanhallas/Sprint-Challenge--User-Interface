@@ -144,6 +144,13 @@ footer nav a {
     text-decoration: none;
 }
 
+footer nav a:hover {
+    color: black;
+    background: white;
+    text-decoration: none;
+    width: 75px;
+}
+
 .headerContainer {
     display: flex;
     justify-content: center;
@@ -230,7 +237,7 @@ header nav a {
     width: 800px;
 }
 
-.about-page h2, p {
+.about-page h2, .about-page p {
     margin: 0px 35px 20px 35px;
 }
 
