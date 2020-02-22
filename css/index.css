@@ -221,3 +221,20 @@ header nav a {
 .box10 {
     background: dodgerblue;
 }
+
+.container about-page {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutSection {
+    margin: 0px 10px 25px 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed;
+
+}
+
+.aboutSection h2, p {
+    margin: 0px 20px 15px 20px;
+}
