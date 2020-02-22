@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML carries meaning in the tags that make it easier to be read by a human or computer. This helps with clarity and SEO. For example, an <h1> tag signifies that the content is the most important on the page. A <p> tag denotes that the content within is a paragraph. Conversely, a <div> tag is the opposite of a semantic tag because it carries no inherent meaning - it’s just a divider.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display: block will start an element on a new line while display: inline will place the element on the current line. Also, display: block will take up the height of the content and the full width available to it, and also has the ability to have its width & height specified. On the other hand, display: inline means the element only takes up the width and height of its content.
 
 3. What are the 4 areas of the box model?
 
+Inner most is content, then moving outward is padding, then border, then margins
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+This would work on the cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+It allows for version control, meaning Git makes it easier to track the history of changes in a codebase, as well as helping with merging code from multiple developers without conflicts in the code. It also allows you to work on code without altering the codebase in use until the code is 100% ready to be merged back into the codebase. This also makes it easier to experiment risk-free with new ideas. One more benefit is that is prevents an overwhelming amount of files from building up when trying to track all the different versions of code that have been saved.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

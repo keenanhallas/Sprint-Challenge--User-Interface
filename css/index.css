@@ -144,3 +144,35 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.headerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    margin: 3% auto;
+    background: pink;
+}
+
+header img {
+    width: 20%;
+    height: 10%;
+    margin-top: .5%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    font-size: 1.25vw;
+}
+
+/* header nav a {
+    text-decoration: none;
+    color: black;
+    padding: 5% 11%;
+} */
