@@ -309,8 +309,8 @@ header nav a:hover {
 }
 
 @keyframes buttonAnimation{
-    from {background: rgba(63, 63, 63, 0.356);}
-    to {background: #c9c9c998;}
+    from {background: rgba(100, 100, 100, 0.356);}
+    to {background: #d4d4d4a1;}
 }
 
 .learnMoreBox div:hover {
