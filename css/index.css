@@ -158,8 +158,8 @@ header {
 }
 
 .lambdaLogo {
-    width: 20%;
-    height: 10%;
+    width: 19%;
+    height: 16%;
     margin-top: .5%;
     margin-left: 0px;
 }
@@ -169,16 +169,17 @@ header nav {
     justify-content: space-evenly;
     margin-left: 20px;
     font-size: 14px;
+    width: 74%;
 }
 
 header nav a {
     text-decoration: none;
     color: black;
-    padding: 32px 40px 20px 35px;
+    padding: 28px 40px 20px 35px;
 }
 
 .headerImage {
-    margin-top: 30px;
+    margin-top: 25px;
     width: 97%;
 }
 
@@ -222,58 +223,80 @@ header nav a {
     background: dodgerblue;
 }
 
-.container about-page {
-    width: 800px;
-    display: flex;
-    justify-content: center;
-}
-
-.aboutSection {
-    margin: 0px 10px 25px 10px;
-    padding-bottom: 20px;
+.about-page {
     border-bottom: 1px dashed;
-
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 800px;
 }
 
-.aboutSection h2, p {
-    margin: 0px 20px 15px 20px;
-}
-
-.container about-page {
-    display: flex;
-    flex-flow: row wrap;
+.about-page h2, p {
+    margin: 0px 35px 20px 35px;
 }
 
 .learnMoreSection {
-    width: 40%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0px auto;
+}
+
+.learnMoreBox {
+    width: 48%;
     border-bottom: 1px dashed;
+    margin-bottom: 50px;
+}
+
+.learnMoreBox img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.learnMoreBox h3 {
+    margin-left: 10px;
+}
+
+.learnMoreBox p {
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.learnMoreBox a {
+    margin-left: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.learnMoreBox div {
+    margin-left: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 130px;
+    line-height: 2.35;
     margin-bottom: 20px;
 }
 
-.learnMoreSection div {
-    border: 1px solid;
-    border-radius: 5px;
-    font-size: 14px;
-    text-align: center;
-    line-height: 2;
-    height: 30px;
-    width: 125px;
-    margin-bottom: 10px;
-}
-
-.learnMoreSection img {
-    width: 50%;
-    height: auto;
-}
-
-.lastSection {
-
+.lastSection{
+    width: 800px;
+    margin: 0 auto;
 }
 
 .lastSection h4 {
-    margin: 40px 0px 15px 20px;
+    margin-left: 7px;
 }
 
 .lastSection p {
-    margin-bottom: 40px;
+    margin: 0px 0px 40px 0px;
+    width: 800px;
+    margin-left: 7px;
+}
+
+.aboutFooter {
+    width: 810px;
+    margin: 0 auto;
 }
