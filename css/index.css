@@ -238,3 +238,42 @@ header nav a {
 .aboutSection h2, p {
     margin: 0px 20px 15px 20px;
 }
+
+.container about-page {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.learnMoreSection {
+    width: 40%;
+    border-bottom: 1px dashed;
+    margin-bottom: 20px;
+}
+
+.learnMoreSection div {
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 2;
+    height: 30px;
+    width: 125px;
+    margin-bottom: 10px;
+}
+
+.learnMoreSection img {
+    width: 50%;
+    height: auto;
+}
+
+.lastSection {
+
+}
+
+.lastSection h4 {
+    margin: 40px 0px 15px 20px;
+}
+
+.lastSection p {
+    margin-bottom: 40px;
+}
