@@ -144,11 +144,17 @@ footer nav a {
     text-decoration: none;
 }
 
+@keyframes footerAnimation{
+    /* from {font-style: normal;}
+    to {font-style: italic;} */
+    from {color: rgb(255, 255, 255)}
+    to {color: rgb(116, 116, 116)}
+}
+
 footer nav a:hover {
-    color: black;
-    background: white;
+    justify-content: left;
     text-decoration: none;
-    width: 75px;
+    animation: footerAnimation 1s alternate infinite linear;
 }
 
 .headerContainer {
@@ -183,6 +189,20 @@ header nav a {
     text-decoration: none;
     color: black;
     padding: 28px 40px 20px 35px;
+}
+
+@keyframes headerAnimation{
+    from {background: rgb(0, 0, 0)}
+    to {background: #a75757c0}
+    from {color: rgb(255, 255, 255)}
+    to {color: rgb(255, 197, 197)}
+}
+
+header nav a:hover {
+    height: 4%;
+    border-radius: 10px;
+    text-decoration: none;
+    animation: headerAnimation 1.5s alternate infinite linear;
 }
 
 .headerImage {
@@ -286,6 +306,17 @@ header nav a {
     width: 130px;
     line-height: 2.35;
     margin-bottom: 20px;
+}
+
+@keyframes buttonAnimation{
+    from {background: rgba(63, 63, 63, 0.356);}
+    to {background: #c9c9c998;}
+}
+
+.learnMoreBox div:hover {
+    animation: buttonAnimation 1s alternate infinite linear;
+    border: 2px solid white;
+    color: white;
 }
 
 .lastSection{
